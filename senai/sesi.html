@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/js/bootstrap.bundle.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <title>Home - SENAI</title>
+    <style>
+        .cor{
+            background-color: #005CA5;
+        }
+        .branco{
+            color: white;
+            font-size: 11px;
+        }
+        .card{
+            background-color: #50B0D8;
+            margin-top: 10px;
+        }
+        .card-text{
+            color: white;
+        }
+        .card-subtitle{
+            color: #005CA5;
+        }
+        .padding{
+            padding: 30px;
+            font-size: 20px;
+        }
+        .back{
+            margin-top: 10px;
+            font-size: 20px;
+            background-color: #005CA5;
+            color: #ffffff;
+        }
+        .noticias{
+          background-color: #50B0D8; 
+          color: #ffffff; 
+          font-size: 25px;
+          padding-left: 100px;
+          padding-right: 100px
+        }
+    </style>
+</head>
+<body>
+    <div class="cor">
+        <nav class="navbar navbar-expand-lg bg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="assets/img/logo.webp" alt="Bootstrap" width="180px" height="80px">
+                </a>
+            </div>
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle branco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>PROGETOS SENAI</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Programa de Educação Profissional</a></li>
+                          <li><a class="dropdown-item" href="#">Capacitação de mão de obra e educação para o mercado de trabalho</a></li>
+                          <li><a class="dropdown-item" href="#">Inovação em Projeção de Revestimentos Cimentícios</a></li>
+                          <li><a class="dropdown-item" href="#">Programa de Ações Inclusivas</a></li>
+                          <li><a class="dropdown-item" href="#">Programa Vivência</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle branco" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>INOVAÇÃO E TECNOLOGIA</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Centro de Treinamento e Desenvolvimento da Indústria 4.0</a></li>
+                            <li><a class="dropdown-item" href="#">Laboratório Aberto</a></li>
+                            <li><a class="dropdown-item" href="#">Ciclo de inovação online</a></li>
+                            <li><a class="dropdown-item" href="#">Consultoria em Tecnologia</a></li>
+                            <li><a class="dropdown-item" href="#">Laboratório de Ensaios e Análises em Materiais – LAMAT</a></li>
+                        </ul>
+                    </li>    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle branco" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>CURSO PROFISSIONALIZANTE</b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Aperfeiçoamento Profissional – SENAI</a></li>
+                        <li><a class="dropdown-item" href="#">Bibliotecas SESI SENAI</a></li>
+                        <li><a class="dropdown-item" href="#">Como estudar no SENAI</a></li>
+                        <li><a class="dropdown-item" href="#">Desenvolvedor Web</a></li>
+                        <li><a class="dropdown-item" href="#">Cursos Técnicos SENAI</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link branco" href="#"><b>APRENDIZAGEM INDUSTRIAL</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+    <nav class="navbar">
+        <form class="container-fluid">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Digete o que você procura" aria-label="Search" aria-describedby="basic-addon1">
+            <button class="btn" style="background-color:#005CA5; color: #ffffff;" type="submit"><b>Buscar</b></button>
+          </div>
+        </form>
+    </nav>
+    <br>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/Captura de tela 2024-02-15 105059.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/projeto-recriar-senai-1920x310-01-1536x248.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <div class="container-fluid">
+        <h1 style="color: #005CA5;">
+            Para cada desafio, uma oportunidade do SENAI.
+        </h1>
+        <h6>
+            Capacitamos os futuros destaques da indústria e impulsionamos os negócios de Minas com as principais tecnologias e tendências.
+        </h6>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <div class="container-fluid">
+        <div>
+            <h3 style="color: #005CA5;">
+                Conheça nossa atuação:
+            </h3>
+        </div>
+        <br>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="assets/img/livro.png" class="img-fluid" alt="">
+                      <br>
+                      <h6 class="card-subtitle mb-2 padding"><b>Educação</b></h6>
+                      <p class="card-text">
+                        <b>Somos referência em formação
+                        para quem quer começar, evoluir
+                        ou se especializar na indústria.</b>
+                    </p>
+                    <button type="button" class="btn back"><b>Saiba mais</b></button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="assets/img/seta.png" class="img-fluid" alt="">
+                      <br>
+                      <h6 class="card-subtitle mb-2 padding"><b>Desenvolvimento</b></h6>
+                      <p class="card-text">
+                        <b>Promovemos o desenvolvimento
+                        sustentável e a competitividade da
+                        indústria mineira.</b>
+                    </p>
+                    <button type="button" class="btn back"><b>Saiba mais</b></button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="assets/img/lampada.png" class="img-fluid" alt="">
+                      <br>
+                      <h6 class="card-subtitle mb-2 padding"><b>Tecnologia</b></h6>
+                      <p class="card-text">
+                        <b>Aceleramos o desenvolvimento tecnológico para evoluir os processos, a gestão e os lucros da sua empresa.</b>
+                    </p>
+                    <button type="button" class="btn back"><b>Saiba mais</b></button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <div class="cor" style="padding: 20px;">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 text-end">
+            <h1 style="color: white; padding-top: 30px;">
+              Soluções para pessoas e negócios
+            </h1>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/regua.jpg" class="d-block w-100" alt="...">
+                  <h4 style="color: #005CA5; background-color: #ffffff; padding: 5px;">
+                    Serviços técnicos especializados
+                  </h4>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/eficiencia.jpg" class="d-block w-100" alt="...">
+                  <h4 style="color: #005CA5; background-color: #ffffff; padding: 5px;">
+                    Soluções em Energia e Eficiência Energética
+                  </h4>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/consultoria.jpg" class="d-block w-100" alt="...">
+                  <h4 style="color: #005CA5; background-color: #ffffff; padding: 5px;">
+                    Consultoria em Tecnologia
+                  </h4>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/estudar.jpg" class="d-block w-100" alt="...">
+                  <h4 style="color: #005CA5; background-color: #ffffff; padding: 5px;">
+                    Como estudar no SENAI
+                  </h4>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/futuro.jpg" class="d-block w-100" alt="...">
+                  <h4 style="color: #005CA5; background-color: #ffffff; padding: 5px;">
+                    Crie sua própria jornada de Desenvolvedor Web
+                  </h4>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: rgb(20, 194, 194); padding-top: 10px;">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 text-start" style="padding-top: 30px;">
+            <h2 style="color: white;">
+              Se é inovação, tecnologia e capacitação que muda carreiras e empresas, é SENAI.
+            </h2>
+            <br>
+            <button type="button" class="btn" style="background-color: rgb(255, 255, 255); color: #005CA5; font-size: 25px; padding: 15px;"><b>Com SENAI voçê, faz o futuro</b></button>
+          </div>
+          <div class="col-md-6 col-sm-12 text-end">
+            <img src="assets/img/menina.png" class="img-fluid" style="margin-bottom: 13px;" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <div class="container-fluid">
+      <h1 class="text-start" style="color: #005CA5; padding-bottom: 15px; font-size: 50px;">
+        Destaques
+      </h1>
+      <br>
+      <div class="row" style="padding: 15px;">
+        <div class="col-md-6 col-sm-12" style="margin-top: 10px;">
+          <a href="###"><img src="assets/img/inovação.jpg" class="img-fluid" alt="..."></a>
+        </div>
+        <div class="col-md-6 col-sm-12 text-end" style="margin-top: 10px;">
+          <a href="###"><img src="assets/img/vermelho.png" class="img-fluid" alt="..."></a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <div style="background-color: #50B0D8;">
+      <div class="text-start">
+        <h2 style="color: #ffffff; padding-top: 20px; font-size: 50px;">
+          Notícias
+        </h2>
+      </div>
+      <div class="container text-center">
+        <div class="row" style="padding-top: 80px;">
+          <div class="col-md-3 col-sm-12"  style="padding-bottom: 10px;">
+            <a href="###"><img src="assets/img/Captura1.png" class="img-fluid" alt=""></a>
+            <br>
+            <p class="text-start" style="font-size: 18px; padding-top: 10px;">
+              04/02/2024
+            </p>
+            <h3 class="text-start" style="font-size: 23px;">
+              600 estudantes apresentam projetos de robótica em festival
+            </h3>
+          </div>
+          <div class="col-md-3 col-sm-12"  style="padding-bottom: 10px;">
+            <a href="###"><img src="assets/img/Captura 2.png" class="img-fluid" alt=""></a>
+            <br>
+            <p class="text-start" style="font-size: 18px; padding-top: 10px;">
+              24/01/2024
+            </p>
+            <h3 class="text-start" style="font-size: 23px;">
+              SENAI abre mais de 5 mil vagas para cursos técnicos em Minas
+            </h3>
+          </div>
+          <div class="col-md-3 col-sm-12"style="padding-bottom: 10px;">
+            <a href="###"><img src="assets/img/Captura3.png" class="img-fluid" alt="" ></a>
+            <br>
+            <p class="text-start" style="font-size: 18px; padding-top: 10px;">
+              18/01/2024
+            </p>
+            <h3 class="text-start" style="font-size: 23px;">
+              Parceria entre prefeitura de Cataguases, SESI e SENAI oferece gratuitamente 80 bolsas de estudo a estudantes
+            </h3>
+          </div>
+          <div class="col-md-3 col-sm-12" style="padding-bottom: 10px;">
+            <a href="###"><img src="assets/img/Captura4.png" class="img-fluid" alt="" ></a>
+            <br>
+            <p class="text-start" style="font-size: 18px; padding-top: 10px;">
+              06/02/2024
+            </p>
+            <h3 class="text-start" style="font-size: 23px;">
+              Imersão Indústria 2024: conexão, conhecimento e oportunidades de negócio
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" style="padding-top: 30px;">
+      <button type="button" class="btn noticias" ><strong>Mais notícias</strong></button>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <br>
+    <hr style="color: white;">
+    <br>
+    <hr style="color: white;">
+    <br>
+    <hr style="color: white;">
+    <div style="background-color: #50B0D8; padding-bottom: 25px;">
+      <div class="container text-center" style="padding-top: 50px;">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <img src="assets/img/imagem_contato_512x512px.webp" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-6 col-sm-12 text-start" style="color: #ffffff; padding-top: 80px;">
+            <h1>
+              Quer saber mais sobre nossas soluções?
+            </h1>
+            <br>
+            <p>
+              Entre em contato e descubra como podemos apoiar a sua jornada.
+            </p>
+            <br>
+            <button type="button" class="btn noticias" style="background-color: #005CA5; font-size: 20px;" ><strong>Clique aqui</strong></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <br>
+    <hr style="color: white;">
+    <br>
+    <hr style="color: white;">
+    <div>
+      <div class="container text-center" style="padding-top: 50px;">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 text-start" style="padding-top: 50px; padding-left: 10px;">
+            <p>
+              <b>Fique por dentro das principais tendências, notícias e oportunidades da FIEMG para impulsionar as pessoas e os negócios de Minas Gerais.</b>
+            </p>
+          </div>
+          <div class="col-md-2 col-sm-12 text-start">
+        
+          </div>
+          <div class="col-md-6 col-sm-12 text-end">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nome*">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail*">
+            </div>
+            <p class="text-start" style="font-size: 13px;">
+              Ao informar meus dados, eu concordo com o Aviso de <a href="###">Privacidade e Proteção de Dados.</a>
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn borda" style="background-color: white; font-size: 20px;" >Quero receber informações</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <br>
+    <hr style="color: white;">
+    <footer style="background-color: #005CA5;"> 
+      <div style="padding-top: 50px;">
+        <div class="container text-center">
+          <div class="row" style="color: #ffffff;">
+            <div class="col-md-3 col-sm-12">
+              <p class="text-start">
+                Serviço de Atendimento ao Cidadão: <br>
+                <b style="font-size: 23px;">4020 9030</b>
+              </p>
+              <p class="text-start">
+                Ouvidoria: <br>
+                <b style="font-size: 23px;">0800 882 2525</b>
+              </p>
+              <p class="text-start">
+                Geral: <br>
+                <b style="font-size: 23px;">(31) 3263 4200</b>
+              </p>
+              <p class="text-start">
+                Horário de funcionamento:
+                Segunda a sexta-feira das 8h às 17h
+                Exceto feriados nacionais e locais.
+              </p>
+            </div>
+            <div class="col-md-3 col-sm-12 text-start">
+              <p><a href="#" class="link-light"><b>Conheça o SENAI</b></a></p>
+              <p><a href="#" class="link-light"><b>Fale Conosco</b></a></p>
+              <p><a href="#" class="link-light"><b>Intranet</b></a></p>
+            </div>
+            <div class="col-md-3 col-sm-12 text-start">
+              <p><a href="#" class="link-light"><b>Gestão 2022-2025</b></a></p>
+              <p><a href="#" class="link-light"><b>Trabalhe Conosco</b></a></p>
+              <p><a href="#" class="link-light"><b>Estatuto FIEMGS</b></a></p>
+              <p><a href="#" class="link-light"><b>Ouvidoria</b></a></p>
+              <p><a href="#" class="link-light"><b>Integridade</b></a></p>
+              <p><a href="#" class="link-light"><b>Aviso de Privacidade e Dados de Proteção</b></a></p>
+              <p><a href="#" class="link-light"><b>Manual de Marcas</b></a></p>
+              <p><a href="#" class="link-light"><b>Política de Segurança de Informação</b></a></p>
+              <p><a href="#" class="link-light"><b>Sindicatos Filiados</b></a></p>
+            </div>
+            <div class="col-md-3 col-sm-12 text-start">
+              <p><a href="#" class="link-light"><b>Calendário da Industria</b></a></p>
+              <p><a href="#" class="link-light"><b>Pagamento RPA</b></a></p>
+              <p><a href="#" class="link-light"><b>Pagamento a Empresa</b></a></p>
+              <p><a href="#" class="link-light"><b>Licitações e Compras</b></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr style="color: #005CA5;">
+      <div class="container text-start" style="color: #ffffff;">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <img src="assets/img/logo.webp" alt="Bootstrap" width="250px" height="100px">
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <p>
+              Federação das Indústrias do Estado de Minas Gerais <br>
+              Av. do Contorno, 4456 – Funcionários
+              Belo Horizonte/MG – CEP: 30110-028
+            </p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <a href="###"><img src="assets/img/icons.png" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
